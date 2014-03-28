@@ -14,12 +14,14 @@ gem "actionmailer", "~> 4.0.0"
 # Use SCSS for stylesheets
 
 gem 'protected_attributes'
+gem 'rails_12factor', group: :production
 group :assets do
-	gem 'sass-rails', '~> 4.0.0'
+	
+end
+gem 'sass-rails', '~> 4.0.0'
   
    gem 'coffee-rails', '~> 4.0.0'
    gem 'uglifier'
-end
 
 # Use Uglifier as compressor for JavaScript assets
 
