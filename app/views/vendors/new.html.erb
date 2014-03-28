@@ -1,0 +1,19 @@
+ <div class="container">
+ 	<% if authorize_signed_in?%>
+    <div class="row">
+    
+      			<%= render "/vendors/form" %>
+    </div>
+    <% else %>
+    <h4><i><u>SNAP! You're not authorised for this!!!</u></i></h4>
+
+     <%end%>
+ </div>
+
+
+
+
+
+
+
+
